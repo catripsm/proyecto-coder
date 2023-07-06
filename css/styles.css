@@ -1,0 +1,140 @@
+/* parametros */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+}
+
+header {
+    height: 100px;
+}
+
+h1 {
+    color: rebeccapurple;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 42px;
+
+    text-align: center;
+}
+
+.search-bar {
+    text-align: right;
+    margin-top: -60px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.container img {
+    width: 33.33%;
+}
+
+
+/* -color a una clase completa- h3{ 
+    color: pink;
+}
+*/
+
+.color-negro {
+    color: black;
+    background-color: black;
+}
+
+.color-rosado {
+    color: pink;
+    background-color: pin;
+}
+
+.fondo-rosado {
+    background-color: pink;
+
+    height: 100px;
+}
+
+.portada {
+    overflow: scroll;
+    height: 600px;
+
+    background-color: white;
+
+    background-image: url(../img/SLIDER\ WEB-04.png);
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+    /* o cover dos que se usan para imagen */
+
+    background-attachment: scroll;
+    /* background-attachment: fixed; POR EJEMPLO PARA UN BOTON LATERAL QUE QUEREMOS QUE SIEMPRE ESTÉ EN LA PANTALLA */
+}
+
+.parrafo {
+    font-size: 1rem;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* 
+.slideshow {
+    height: 600px;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@keyframes slide-animation {
+    0%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateX(-100%);
+    }
+    66%{
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+.slideshow .slide {
+    animation: slide-animation 5s infinite;
+}
+
+ */
